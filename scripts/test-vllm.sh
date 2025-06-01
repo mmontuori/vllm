@@ -1,7 +1,8 @@
-model="facebook/opt-125m"
-question="what is the capital of italy"
-max_tokens="7"
-temperature="0"
+#!/bin/bash
+
+question="are you smart?"
+
+source scripts/setenv.sh
 
 curl -X 'POST'   'http://192.168.1.50:8000/v1/completions' \
     -H 'accept: application/json' \

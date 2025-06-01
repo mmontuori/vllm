@@ -1,0 +1,5 @@
+model="facebook/opt-125m"
+max_tokens="7"
+temperature="0"
+VLLM_CPU_KVCACHE_SPACE="4"
+VLLM_CPU_OMP_THREADS_BIND="0-4"
