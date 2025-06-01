@@ -1,4 +1,5 @@
 model="facebook/opt-125m"
+workspace_volume="devvol"
 max_tokens="7"
 temperature="0"
 VLLM_CPU_KVCACHE_SPACE="4"
