@@ -1,6 +1,6 @@
 #!/bin/bash
 
-question="are you smart?"
+question="what is the capital of Frnce?"
 
 source scripts/setenv.sh
 
